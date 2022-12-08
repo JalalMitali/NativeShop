@@ -27,10 +27,11 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
      marginRight: 30,
      height: 50,
      flexDirection: 'row',
-     backgroundColor: Colors.white,
+     backgroundColor: Colors.Black,
      borderRadius: 15,
    },
    searchIcon: {
+     color: Colors.white,
      fontWeight: '400',
      width: 50,
      height: 50,
@@ -39,7 +40,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
      marginTop: 10,
    },
    searchText: {
-     color: Colors.DarkGray,
+     color: Colors.white,
      fontSize: 20,
      alignContent: "center",
     justifyContent: "center",
