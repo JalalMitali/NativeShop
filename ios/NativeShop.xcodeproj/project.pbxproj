@@ -12,6 +12,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		566BFAD02942609C00510151 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 566BFACE2942609C00510151 /* MaterialCommunityIcons.ttf */; };
+		566BFAD12942609C00510151 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 566BFACE2942609C00510151 /* MaterialCommunityIcons.ttf */; };
+		566BFAD22942609C00510151 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 566BFACF2942609C00510151 /* MaterialIcons.ttf */; };
+		566BFAD32942609C00510151 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 566BFACF2942609C00510151 /* MaterialIcons.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-NativeShop-NativeShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeShop-NativeShopTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,8 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NativeShop/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeShop-NativeShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeShop-NativeShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-NativeShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeShop.debug.xcconfig"; path = "Target Support Files/Pods-NativeShop/Pods-NativeShop.debug.xcconfig"; sourceTree = "<group>"; };
+		566BFACE2942609C00510151 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		566BFACF2942609C00510151 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-NativeShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeShop.release.xcconfig"; path = "Target Support Files/Pods-NativeShop/Pods-NativeShop.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-NativeShop-NativeShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeShop-NativeShopTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeShop-NativeShopTests/Pods-NativeShop-NativeShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-NativeShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +112,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		566BFAC729425DAE00510151 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				566BFACE2942609C00510151 /* MaterialCommunityIcons.ttf */,
+				566BFACF2942609C00510151 /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +131,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				566BFAC729425DAE00510151 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* NativeShop */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* NativeShopTests */,
@@ -235,6 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566BFAD32942609C00510151 /* MaterialIcons.ttf in Resources */,
+				566BFAD12942609C00510151 /* MaterialCommunityIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +260,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566BFAD02942609C00510151 /* MaterialCommunityIcons.ttf in Resources */,
+				566BFAD22942609C00510151 /* MaterialIcons.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
